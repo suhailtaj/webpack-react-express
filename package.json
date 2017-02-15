@@ -1,0 +1,27 @@
+{
+  "name": "webpack-react-express",
+  "version": "1.0.0",
+  "description": "webpack react react scaffolding",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm run build:dev && node server/index.js",
+    "build:dev": "yarn install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "react",
+    "scaffolding"
+  ],
+  "author": "Suhail Taj Shaik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
+  }
+}
